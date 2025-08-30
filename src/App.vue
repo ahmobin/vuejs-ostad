@@ -5,6 +5,7 @@ import ListRenderComponent from './components/ListRenderComponent.vue';
 import PropsFParentComponent from './components/PropsFParentComponent.vue';
 import ReactiveComponent from './components/ReactiveComponent.vue';
 import SlotParentComponent from './components/SlotParentComponent.vue'
+import TwoWayBindingComponent from './components/TwoWayBindingComponent.vue';
 
 </script>
 
@@ -17,6 +18,8 @@ import SlotParentComponent from './components/SlotParentComponent.vue'
   <PropsFParentComponent/>
 
   <SlotParentComponent/>
+
+  <TwoWayBindingComponent/>
 </template>
 
 <style scoped>
