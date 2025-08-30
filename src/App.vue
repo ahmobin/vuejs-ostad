@@ -1,4 +1,5 @@
 <script setup>
+import ComputedPropertiesComponent from './components/ComputedPropertiesComponent.vue';
 import DataBindingComponent from './components/DataBindingComponent.vue';
 import HelloComponent from './components/HelloComponent.vue';
 import ListRenderComponent from './components/ListRenderComponent.vue';
@@ -20,6 +21,8 @@ import TwoWayBindingComponent from './components/TwoWayBindingComponent.vue';
   <SlotParentComponent/>
 
   <TwoWayBindingComponent/>
+
+  <ComputedPropertiesComponent/>
 </template>
 
 <style scoped>
