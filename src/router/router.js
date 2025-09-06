@@ -7,10 +7,12 @@ import Contact from "../pages/Contact.vue";
 const routes = [
   {
     path: "/",
+    name: "home",
     component: Home
   },
   {
     path: "/about",
+    name: "aboutus",
     component: About,
   },
   {
