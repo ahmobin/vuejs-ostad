@@ -6,6 +6,7 @@ import LinkingComponent from './LinkingComponent.vue';
 <template>
     <LinkingComponent/>
     <RouterView/>
+    <RouterView name="info-section"/>
 </template>
 
 <style scoped></style>

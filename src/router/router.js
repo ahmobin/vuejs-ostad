@@ -3,17 +3,26 @@ import Home from "../pages/Home.vue";
 import About from "../pages/About.vue";
 import Blog from "../pages/Blog.vue";
 import Contact from "../pages/Contact.vue";
+import InfoComponent from "../Component/InfoComponent.vue";
 
 const routes = [
   {
     path: "/",
-    name: "home",
+    name: "home", // named route
     component: Home
   },
+//  {
+//    path: "/about",
+//    name: "aboutus",
+//    component: About,
+//  },
   {
     path: "/about",
     name: "aboutus",
-    component: About,
+    components: {
+      default: About,
+      "info-section": InfoComponent // named component
+    },
   },
   {
     path: "/blog",
