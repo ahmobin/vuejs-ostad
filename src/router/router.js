@@ -11,6 +11,11 @@ const routes = [
     name: "home", // named route
     component: Home
   },
+  {
+    path: "/home",
+    redirect: "/"
+    //redirect: {name:"home"}
+  },
 //  {
 //    path: "/about",
 //    name: "aboutus",
