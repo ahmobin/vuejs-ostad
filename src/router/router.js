@@ -4,6 +4,7 @@ import About from "../pages/About.vue";
 import Blog from "../pages/Blog.vue";
 import Contact from "../pages/Contact.vue";
 import InfoComponent from "../Component/InfoComponent.vue";
+import SingleBlog from "../pages/SingleBlog.vue";
 
 const routes = [
   {
@@ -28,6 +29,11 @@ const routes = [
       default: About,
       "info-section": InfoComponent // named component
     },
+  },
+  {
+    path: "/blog/:id",
+    name: "single-blog",
+    component: SingleBlog,
   },
   {
     path: "/blog",
